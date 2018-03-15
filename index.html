@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio de Gilbert Torchon</title>
   <link href="https://fonts.googleapis.com/css?family=Bungee Inline" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
@@ -11,37 +13,15 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Delius Unicase" rel="stylesheet" type="text/css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
-
   <link rel="stylesheet" href="css/style.css">
-
-
+  
 </head>
-
-<body>
-
-
-  <html>
-
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi"
-      crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK"
-      crossorigin="anonymous"></script>
-  </head>
-
   <body>
-    <button id="button-scroll-up" class="btn btn-default">
-      <span class="fa fa-arrow-up"></span>
-    </button>
     <div id="main-container">
-      <header id="myheader" class="nav navbar-default navbar-top" role="navigation">
+      <header id="myheader" class="nav navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data target=".navbar-collapse" id="navbar-id">
@@ -50,38 +30,38 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" id="main_title" href="#"> Torch</a>
+            <a class="navbar-brand" id="main_title" href="#">TG</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav" id="navbar-button-group">
               <!--<li><a href="#"><button class="btn  btn-outline-info "><span class="fa fa-home"></span> Home</button></a></li>-->
               <li>
-                <a href="#about">
-                  <button class="btn  btn-outline-success forScroll" id="button-about">
+                <a href="#about" id="button-about">
+                  <!-- <button class="btn  btn-outline-success forScroll" id="button-about"></button> -->
                     <span class="fa fa-info-circle"></span> About</button>
                 </a>
               </li>
               <li>
-                <a href="#skills">
-                  <button id="button-skills" class="btn    btn-outline-danger forScroll">
+                <a href="#skills" id="button-skills">
+                  <!-- <button id="button-skills" class="btn    btn-outline-danger forScroll"> -->
                     <span class="fa fa-magic"></span> Skills</button>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <button id="resume-button" class="btn  btn-outline-warning ">
+                  <!-- <button id="resume-button" class="btn  btn-outline-warning "> -->
                     <span class="fa fa-list"></span> Resume</button>
                 </a>
               </li>
               <li>
-                <a href="#portfolio" class="forScroll">
-                  <button class="btn  btn-outline-primary forScroll" id="button-portfolio">
+                <a href="#portfolio" id="button-portfolio" class="forScroll">
+                  <!-- <button class="btn  btn-outline-primary forScroll" id="button-portfolio"> -->
                     <span class="fa fa-book"></span> Portfolio</button>
                 </a>
               </li>
               <li>
-                <a href="#contact" class="forScroll">
-                  <button class="btn  btn-outline-warning " id="button-contact">
+                <a href="#contact" id="button-contact" class="forScroll">
+                  <!-- <button class="btn  btn-outline-warning " id="button-contact"> -->
                     <span class="fa fa-phone"></span> Contact</button>
                 </a>
               </li>
@@ -89,7 +69,6 @@
             </ul>
           </div>
         </div>
-
       </header>
       <div id="resume">
         <a href="https://drive.google.com/open?id=0B3n7Bh21UGNwa2xHYkdidlEtQWs" target="_blank">
@@ -99,60 +78,113 @@
         </a>
       </div>
       <div id="about">
-        <h1>
-          <span class="fa fa-info-circle"></span>About</h1>
-        <div>
-          <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1480033035/gilbert1_fqyley.jpg" id="ma-photo" />
-          <p id="my-name">Gilbert Torchon</p>
+        <div id="mybio">
+            <p>
+              <figure>
+                <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1480033035/gilbert1_fqyley.jpg" id="ma-photo" alt="Gilbert Torchon Computer Engineer"/>
+              </figure>
+              I am a Computer Engineer passionated about <strong>3D</strong>, <strong>2D Graphic Design</strong>, <strong>Mobile</strong>,<strong>Full-Stack Web Development</strong>, <strong>Virtual
+                Reality</strong> and <strong>Animation</strong>. I worked in projects involvind all these topics and also have my own package <strong><a href="https://www.npmjs.com/package/@gilbert2017/simple-timer">Simple Timer</a></strong>
+                available on
+                <strong><a href="#">npm</a></strong>. 
+                I am also a freshly certified Front-End Development at
+                <strong><a href="https://www.freecodecamp.com">Free Code Camp</a></strong>.
+                <strong><a href="https://www.freecodecamp.org/giltorch/front-end-certification">Here</a></strong> is a verification link to my certificate.
+              </p>      
         </div>
-        <p>Computer Engineer passionated about 3D, 2D Graphic Design, Web Design, Virtual Reality and Animation. Already developped
-          a game app. Currently learning Unity and just finished developping another app in collaboration with Joyce Rousseau...</p>
-        <p>
-          You can have it on Google Play here:
-          <a href="https://play.google.com/store/apps/details?id=air.Djandjouko&hl=fr"
-            target="_blank">https://play.google.com/store/apps/details?id=air.Djandjouko&hl=fr</a>.
-        </p>
       </div>
-
       <div id="portfolio">
-        <h2>
-          <span class="fa fa-book"></span> Portfolio</h2>
-        <div class="my-projects">
+        <div class="projects projects-work">
+          <header>
+            <h2>My Work</h2>
+          </header>
           <div class="row">
-            <div class='col-md-6'>
+            <div class="col-md-6">
               <header>
-                <h3>Twitch TV App</h3>
+                <h3>Met Fey Vet Djandjouko</h3>
               </header>
-              <p data-height="265" data-theme-id="light" data-slug-hash="GrjvyZ" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
-                data-pen-title="Twitch Tv " data-preview="true" class="codepen">See the Pen
-                <a href="https://codepen.io/BlessedCamper/pen/GrjvyZ/">Twitch Tv </a> by Gilbert (
-                <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
-                <a href="https://codepen.io">CodePen</a>.</p>
-              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+              <div>
+                <div class="project-preview">
+                  <img class="logo-application-met-fey-vet" src="http://res.cloudinary.com/dejyp5iex/image/upload/v1486948797/djandjouko-lokal_ijkdnb.png"
+                    alt="logo de l'application Met Fey Vet" />
+                </div>
+                <p>An app that challenge people with quizzes on what they should know about haiti.</p>
+                You can have it on Google Play
+                <a href="https://play.google.com/store/apps/details?id=air.Djandjouko&hl=fr" target="_blank"> here</a>.
+                </p>
+              </div>
             </div>
             <div class="col-md-6">
               <header>
-                <h3>Simon Game App</h3>
+                <h3>All Children Reading(ACR)</h3>
               </header>
-              <p data-height="265" data-theme-id="light" data-slug-hash="eVzEYM" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
-                data-pen-title="Simon Game " data-preview="true" class="codepen">See the Pen
-                <a href="https://codepen.io/BlessedCamper/pen/eVzEYM/">Simon Game </a> by Gilbert (
-                <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
-                <a href="https://codepen.io">CodePen</a>.</p>
-              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+              <div>
+                <div class="project-preview">
+                  <img class="logo-application-met-fey-vet" src="http://res.cloudinary.com/dejyp5iex/image/upload/v1486948797/djandjouko-lokal_ijkdnb.png"
+                    alt="logo de l'application Met Fey Vet" />
+                </div>
+                <p>A desktop app that teaches children usind interactive animations.</p>
+                You can read about it
+                <a href="#">here</a>
+                </p>
+              </div>
             </div>
           </div>
           <div class="row">
             <div class="col-md-6">
               <header>
-                <h3>Tic Tac Toe App</h3>
+                <h3>Citadelle La Ferrière VR</h3>
               </header>
-              <p data-height="265" data-theme-id="light" data-slug-hash="EwOKry" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
-                data-pen-title="TIC TAC TOE" data-preview="true" class="codepen">See the Pen
-                <a href="https://codepen.io/BlessedCamper/pen/EwOKry/">TIC TAC TOE</a> by Gilbert (
-                <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
-                <a href="https://codepen.io">CodePen</a>.</p>
-              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+              <div>
+                <div class="project-preview">
+                  <img class="logo-application-met-fey-vet" src="http://res.cloudinary.com/dejyp5iex/image/upload/v1486948797/djandjouko-lokal_ijkdnb.png"
+                    alt="logo de l'application Met Fey Vet" />
+                </div>
+                <p>A VR app that allows users to visit the fortress "Citadelle La Ferriere" with an Occulus. See a presentation
+                  <a href="https://www.youtube.com/watch?v=wyRx_Jn7ShI" target="_blank"> here</a>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="projects projects-personal">
+            <header>
+              <h2>Personal Projects</h2>
+            </header>
+            <div class="row">
+              <div class='col-md-6'>
+                <header>
+                  <h3>Twitch TV App</h3>
+                </header>
+                <p data-height="265" data-theme-id="light" data-slug-hash="GrjvyZ" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
+                  data-pen-title="Twitch Tv " data-preview="true" class="codepen">See the Pen
+                  <a href="https://codepen.io/BlessedCamper/pen/GrjvyZ/">Twitch Tv </a> by Gilbert (
+                  <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
+                  <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+              </div>
+              <div class="col-md-6">
+                <header>
+                  <h3>Simon Game App</h3>
+                </header>
+                <p data-height="265" data-theme-id="light" data-slug-hash="eVzEYM" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
+                  data-pen-title="Simon Game " data-preview="true" class="codepen">See the Pen
+                  <a href="https://codepen.io/BlessedCamper/pen/eVzEYM/">Simon Game </a> by Gilbert (
+                  <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
+                  <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <header>
+                  <h3>Tic Tac Toe App</h3>
+                </header>
+                <p data-height="265" data-theme-id="light" data-slug-hash="EwOKry" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
+                  data-pen-title="TIC TAC TOE" data-preview="true" class="codepen">See the Pen
+                  <a href="https://codepen.io/BlessedCamper/pen/EwOKry/">TIC TAC TOE</a> by Gilbert (
+                  <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
+                  <a href="https://codepen.io">CodePen</a>.</p>
+                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
               </div>
               <div class="col-md-6">
                 <header>
@@ -163,48 +195,25 @@
                   <a href="https://codepen.io/BlessedCamper/pen/mRbaQy/">My Weather Widget</a> by Gilbert (
                   <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
                   <a href="https://codepen.io">CodePen</a>.</p>
-                <script async src="https://static.codepen.io/assets/embed/ei.js"></script> 
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <header>
-                  <h3>Haitian Creole Quotes</h3>
-                </header>
-                <p data-height="265" data-theme-id="light" data-slug-hash="yVdOqy" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
-                  data-pen-title="Haitian Quotes" data-preview="true" class="codepen">See the Pen
-                  <a href="https://codepen.io/BlessedCamper/pen/yVdOqy/">Haitian Quotes</a> by Gilbert (
-                  <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
-                  <a href="https://codepen.io">CodePen</a>.</p>
-                <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-              </div>
-              <div class="col-md-6">
-                <header>
-                  <h3>Pomodoro Clock App</h3>
-                </header>
-                <p data-height="265" data-theme-id="light" data-slug-hash="KXwYNY" data-default-tab="result" data-user="BlessedCamper" data-embed-version="2"
-                  data-pen-title="Pomodoro Clock (with notification)" data-preview="true" class="codepen">See the Pen
-                  <a href="https://codepen.io/BlessedCamper/pen/KXwYNY/">Pomodoro Clock (with notification)</a> by Gilbert (
-                  <a href="https://codepen.io/BlessedCamper">@BlessedCamper</a>) on
-                  <a href="https://codepen.io">CodePen</a>.</p>
                 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
               </div>
             </div>
-            <footer class="text-center">
+            <footer style="font-size:2em;">
               <p>
-                See more on my Codepen profile <a href="https://codepen.io/BlessedCamper/" target="_blank">here</a>
+                See more on my Codepen profile
+                <a href="https://codepen.io/BlessedCamper/" target="_blank">here</a>
               </p>
             </footer>
           </div>
           <div id="skills">
-            <h1>
-              <span class="fa fa-magic"></span> My Skills</h1>
+            <h2>
+              <span class="fa fa-magic"></span> My Skills</h2>
             <div class="row" id="programming">
               <h3>PROGRAMMING</h3>
               <div class="col-md-2">
                 <div class="skills-icons">
-                  <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_html5_pva34d.png" />
-                </div>
+                    <i class="fab fa-html5 fa-3x"></i>                
+                  </div>
                 <p>
                   HTML 5
                 </p>
@@ -213,7 +222,7 @@
               </div>
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_css_gzmank.png" />
+                    <i class="fab fa-css3 fa-3x"></i>
                 </div>
                 <p>
                   CSS 3
@@ -222,7 +231,7 @@
               </div>
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_javascript_cxzqv7.png" />
+                  <i class="fab fa-js fa-3x"></i>               
                 </div>
                 <p>
                   Javascript
@@ -231,7 +240,7 @@
               </div>
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_jquery_a3fyns.gif" />
+                  <i class="fab fa-js fa-3x"></i>  
                 </div>
                 <p>
                   JQuery
@@ -240,13 +249,12 @@
               </div>
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img id="jqueryui-logo" src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_jqueryui_sdjw8x.png"
-                  />
+                    <i class="fab fa-node-js fa-3x"></i>  
                 </div>
                 <p>
-                  JQuery UI
+                  Node JS
                 </p>
-                <div class="barre" id="barreJQueryUI"></div>
+                <div class="barre" id="barreNodeJS"></div>
               </div>
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
@@ -259,7 +267,7 @@
               </div>
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_php_gvwzzb.png" />
+                    <i class="fab fa-php fa-3x"></i>
                 </div>
                 <p>
                   PHP
@@ -269,30 +277,39 @@
 
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_mySQL_y92qej.png" />
+                    <i class="fab fa-sass fa-3x"></i>                
                 </div>
                 <p>
-                  MySQL
+                  Sass
                 </p>
-                <div class="barre" id="barreMySQL"></div>
+                <div class="barre" id="barreSass"></div>
               </div>
               <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399027/thumbnails/tn_actionscript3_-_Copy_bs2qvh.png" />
+                  <i class="fab fa-react fa-3x"></i>
                 </div>
                 <p>
-                  Actionscript 3
+                  React JS
                 </p>
-                <div class="barre" id="barreActionscript"></div>
+                <div class="barre" id="barreReactJS"></div>
               </div>
               <div class="col-md-2  col-sm-2">
+                  <div class="skills-icons">
+                    <i class="fab fa-react fa-3x"></i>
+                  </div>
+                  <p>
+                    React VR
+                  </p>
+                  <div class="barre" id="barreReactVR"></div>
+                </div>
+              <div class="col-md-2  col-sm-2">
                 <div class="skills-icons">
-                  <img id="c-logo" src="https://res.cloudinary.com/dejyp5iex/image/upload/v1481399028/thumbnails/tn_c_copie_bwudag.png" />
+                  <i class="fab fa-github fa-3x"></i>                
                 </div>
                 <p>
-                  C
+                  Git & github
                 </p>
-                <div class="barre" id="barreC"></div>
+                <div class="barre" id="barreGitEtGithub"></div>
               </div>
             </div>
 
@@ -337,8 +354,8 @@
               </div>
             </div>
           </div>
-
-          <div id="contact" class="row">
+        </div>
+        <div id="contact" class="row">
             <div id="contact-me-phone-mail" class="col-md-6">
               <h1>
                 <span class="fa fa-envelope"> </span> Contact Me</class>
@@ -356,8 +373,7 @@
               <label class="col-xs-2 col-form-label">Subject: </label>
               <input class="form-control" placeholder="Enter your subject: " type="text" />
               <textarea placeholder="Enter your message right here..."></textarea>
-              <button id="buttonsubmit" class="btn btn-block btn-outline-success fa">
-                <span class="fa fa-paper-plane"></span> Submit</button>
+              <button class="btn btn-block btn-success"><i class="far fa-paper-plane"></i> SUBMIT</button>
             </form>
             <div>
 
@@ -368,58 +384,51 @@
 
             </ul>
           </div>
-        </div>
         <footer id="myfooter">
           <div class="row">
             <ul>
               <li>
                 <a href="https://www.facebook.com/gilbert.torchon?fref=nf" target="_blank">
                   <button id="facebook-button" class="btn btn-outline-primary">
-                    <span class="fa fa-facebook fa-3x"></span>
+                    <span class="fab fa-facebook fa-3x"></span>
                   </button>
                 </a>
               </li>
               <li>
                 <a href="https://github.com/GilTorch" target="_blank">
                   <button id="github-button" class="btn btn-outline-secondary">
-                    <span class="fa fa-github-square fa-3x"></span>
+                    <span class="fab fa-github-square fa-3x"></span>
                   </button>
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/gilbert-torchon-22a9a1a4?trk=nav_responsive_tab_profile_pic" target="_blank">
                   <button id="linkedin-button" class="btn btn-large btn-outline-primary">
-                    <span class="fa fa-linkedin fa-3x" /></span>
+                    <span class="fab fa-linkedin fa-3x" /></span>
                   </button>
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/TorchonGilbert" target="_blank">
                   <button id="twitter-button" class="btn btn-outline-info">
-                    <span class="fa fa-twitter fa-3x"></span>
+                    <span class="fab fa-twitter fa-3x"></span>
                   </button>
                 </a>
               </li>
             </ul>
           </div>
-          <p style="color:white;">Designed and coded by
-            <a href="https://codepen.io/BlessedCamper/pen/" target="_blank">Gilbert</a>
-          </p>
+          <footer>
+              <p style="color:white;">Designed and coded by
+                  <a href="https://codepen.io/BlessedCamper/pen/" target="_blank">Gilbert</a>
+              </p>
+          </footer>
         </footer>
   </body>
-
   </html>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
-
-
-
   <script src="js/index.js"></script>
-
-
-
-
 </body>
 
 </html>

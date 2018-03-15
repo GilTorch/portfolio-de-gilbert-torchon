@@ -32,7 +32,7 @@ $(document).ready(
 
     $("#download-resume-button").mouseover(function(){
       //alert("V");
-        $("#resume").css("background-color","rgba(255,255,255,0.1)");
+        $("#resume").css("background-color","rgba(0,0,0,0.1)");
 
     })
 

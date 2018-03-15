@@ -1,0 +1,385 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  
+  #button-scroll-up{
+    display:none;
+    border-radius:50%;
+    background-color:rgba(255,255,255,0.6);
+    color:gray;
+    width:50px;
+    height:50px;
+    position:absolute;
+    z-index:1;
+    right:1%;
+    top:88%;
+    position:fixed;
+    box-shadow:0px 0px 10px black;
+  }
+  #navbar-button-group{
+    float:right;
+  }
+  
+  #myheader{
+    background-color:white;
+  }
+  
+  #myheader button{
+    color:white;
+  }
+  
+  .container{
+    margin:0 !important;
+  }
+  
+  .row{
+    margin:0 !important;
+  }
+  
+  #main-container{
+    width: 100%;
+    margin:0 !important;
+  }
+  
+  
+  
+  
+  .row{
+    margin: 0;
+  }
+  
+  
+  
+  #resume{
+    display: none;
+    padding: 10%;
+    text-align: center;
+
+    button:hover{
+  
+        box-shadow: 0px 0px 10px black;
+    }
+  }
+  
+  
+  
+  #programming .col-md-2{
+    margin-bottom:25px;
+  }
+  
+  
+  
+  
+  
+  
+  .barre{
+  
+  box-shadow: 0px 0px 3px;
+  border-radius: none;
+  width:50%;
+  height:13px;
+  margin-left: 25%;
+  }
+  
+  body{
+    background:linear-gradient(45deg,#000000,#AAAAAA,#000000);
+    /* background:url("http://res.cloudinary.com/dejyp5iex/image/upload/v1521123938/Texture-Wallpapers-HD-004_yh2cym.jpg") fixed no-repeat center; */
+  
+    padding:0;
+    color:#eb0005;
+  }
+  
+  #about{
+    font-size: 1.3em;
+  }
+  
+  #about #ma-photo{
+    width:15%;
+    border-radius: 50%;
+  }
+  
+  figure{
+    float:left;
+  }
+  
+  #myname{
+    font-weight: bold;
+  }
+  
+  footer ul li {
+    display: inline;
+  }
+  
+  
+  
+  
+  #myfooter button{
+    border-radius: 50%;
+    border-width: 3px;
+  }
+  
+  
+  
+  header ul li{
+    font-family: "Quicksand";
+  }
+  
+  
+  
+  #myfooter{
+      color:#eb0005;
+  /*  background-color:rgba(202,30,74,1);*/
+    width: 100%;
+    margin:0;
+   text-align:center;
+  }
+  
+  
+  #myfooter button{
+    width:100px;
+    height: 100px;
+    margin-top:1%;
+  }
+  
+  
+  
+  
+  #menu-navigation li{
+    margin-right:0;
+  }
+  
+  #main_title{
+  
+   color:rgba(255,255,255,1);
+    font-family:"Molle",cursive;
+   /* font-family:"Delius Unicase";*/
+    text-shadow:0px 0px 10px black;
+    font-size:150%;
+  }
+  
+  #about{
+      color:rgba(150,0,0,0.6);
+    text-align: center;
+    padding:10%;
+  
+  }
+  
+  
+  #portfolio{
+    padding:8%;
+  }
+  
+  #portfolio img{
+    border-radius: 10px;
+  }
+  
+  
+  
+  #portfolio,#contact{
+    color:white;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  #mythumbnails img{
+    width: 20%;
+    margin:1%;
+  }
+  
+  
+  #mythumbnails img:hover{
+    
+    cursor: pointer;
+    box-shadow: 0px 0px 20px white;
+    transform:scale(1.1);
+    transition:all 0.3s ease 0s;
+  }
+  
+  #github-button{
+    color:purple;
+    border-color: purple;
+  }
+  
+  #github-button:hover{
+    background-color: purple;
+    color:white;
+    box-shadow: 0px 0px 50px purple;
+    transition: 0.5s;
+  }
+  
+  
+  #facebook-button:hover{
+      box-shadow: 0px 0px 50px #3273b9;
+      transition: 0.5s;
+  }
+  
+  #linkedin-button:hover{
+    box-shadow: 0px 0px 50px #3273b9;
+    transition: 0.5s;
+  }
+  
+  #twitter-button:hover{
+    box-shadow: 0px 0px 50px #5bbfde;
+    transition: 0.5s;
+  }
+  
+  /*Contact*/
+  #contact{
+    background-color:rgba(68, 18, 83, 0.849) ;
+    margin:0;
+    padding:1%;
+    padding: 1%;
+    font-size: 1.3em;
+    border-radius: 10px;
+  }
+  
+  #contact #formulaire-contact input{
+    color:blue;
+  }
+  
+  #contact #contact-me-phone-mail  {
+    color:white;
+  }
+  #contact #contact-me-phone-mail  h1{
+    color:white;
+  }
+  
+  #contact-form ul{
+    list-style-type:none;
+  }
+  
+  #buttonsubmit:hover{
+  box-shadow: 0px 0px 50px green;
+  }
+  
+  
+  
+  #contact button{
+    padding:1%;
+  }
+  
+  #contact input{
+    display: block;
+    margin-bottom: 2%;
+  }
+  
+  #contact textarea{
+  
+    width: 100%;
+    height: 200px;
+  
+    margin-bottom:10px;
+  
+    border-radius: 4px;
+  }
+  
+  
+  
+  #about{
+  background-color: white;
+  }
+  
+  
+  
+  #menu-navigation button{
+    color:white;
+    border-size:3px;
+  }
+  /*=======Titre yo=====*/
+  
+  #contact h1{
+  
+    font-family: "Lobster";
+    color:white;
+  font-size:4em;
+  }
+  
+  #main-container h1{
+    color:rgba(150,0,0,1);
+    font-family: Lobster;
+  font-size:4em;
+  }
+  
+  #portfolio h1{
+    color:white;
+    font-family:Lobster;
+    font-size:4em;
+  }
+  
+  #skills h1{
+    color:rgba(150,0,0,1);
+    font-size:4em;
+      font-family:"Lobster";
+  }
+  
+  
+  
+  
+  
+  /*====================*/
+  
+  .skills-icons img{
+    
+    width:30%;
+    vertical-align:top;
+  }
+  
+  
+  
+  #skills{
+    text-align: center;
+    padding-top: 3%;
+    /* background-color: rgba(255,255,255, 1); */
+  }
+  
+  #skills p{
+    font-size: 1.9em;
+    color:black;
+  
+  }
+  
+  #skills .row{
+    padding:1%;
+  }
+  
+  #copyright{
+    font-family:"Lobster",cursive;
+    color:white;
+    padding-left:10%;
+  }
+  
+  .projects{
+    padding:1%;
+  }
+  
+  .projects h2{
+    color:white;
+  }
+  
+  .row div{
+    margin-top:4%;
+  }
+  
+  h2{
+    color:black;
+  }
+  
+  
+  h3{
+    font-weight:bold;
+    font-family:"Dosis",sans-serif;
+    background-color:#ed3424;
+    padding:1%;
+    color:white;
+  }
+  
+  .logo-application-met-fey-vet{
+    width:20%;
+  }
+  
+  #mybio{
+    text-align: justify;
+  }
+

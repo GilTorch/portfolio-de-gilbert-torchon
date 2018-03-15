@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-de-gilbert-torchon",
+  "version": "1.0.0",
+  "description": "my personal portfolio",
+  "main": "app.js",
+  "scripts": {
+    "css": "node-sass css/style.scss -o css",
+    "css:watch": "npm run css && node-sass css/style.scss -wo css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GilTorch/portfolio-de-gilbert-torchon.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Gilbert Torchon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GilTorch/portfolio-de-gilbert-torchon/issues"
+  },
+  "homepage": "https://github.com/GilTorch/portfolio-de-gilbert-torchon#readme",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
