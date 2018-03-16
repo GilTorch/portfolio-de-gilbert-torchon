@@ -3,33 +3,20 @@
     padding:0;
   }
   
-  
-  #button-scroll-up{
-    display:none;
-    border-radius:50%;
-    background-color:rgba(255,255,255,0.6);
-    color:gray;
-    width:50px;
-    height:50px;
-    position:absolute;
-    z-index:1;
-    right:1%;
-    top:88%;
-    position:fixed;
-    box-shadow:0px 0px 10px black;
-  }
+
   #navbar-button-group{
     float:right;
   }
   
   #myheader{
     background-color:white;
+    font-family: "Quicksand";
+    font-size:1.3em;   
   }
   
-  #myheader button{
-    color:white;
-  }
-  
+//   #myheader button{
+//     color:white;
+//   }
   .container{
     margin:0 !important;
   }
@@ -86,7 +73,7 @@
   body{
     background:linear-gradient(45deg,#000000,#AAAAAA,#000000);
     /* background:url("http://res.cloudinary.com/dejyp5iex/image/upload/v1521123938/Texture-Wallpapers-HD-004_yh2cym.jpg") fixed no-repeat center; */
-  
+    font-family: Quicksand;
     padding:0;
     color:#eb0005;
   }
@@ -108,17 +95,14 @@
     font-weight: bold;
   }
   
-  footer ul li {
+
+  #myfooter ul li {
     display: inline;
   }
   
   
   
-  
-  #myfooter button{
-    border-radius: 50%;
-    border-width: 3px;
-  }
+ 
   
   
   
@@ -134,7 +118,16 @@
     width: 100%;
     margin:0;
    text-align:center;
+
+   button{
+    border-radius: 50%;
+    border-width: 3px;
+
+    
   }
+  }
+
+
   
   
   #myfooter button{
@@ -175,8 +168,9 @@
     border-radius: 10px;
   }
   
-  
-  
+  #contact{
+    padding:10%;
+  }
   #portfolio,#contact{
     color:white;
     font-size: 1em;
@@ -227,7 +221,7 @@
   
   /*Contact*/
   #contact{
-    background-color:rgba(68, 18, 83, 0.849) ;
+    background-color:#0E4C90 ;
     margin:0;
     padding:1%;
     padding: 1%;
@@ -250,9 +244,19 @@
     list-style-type:none;
   }
   
-  #buttonsubmit:hover{
-  box-shadow: 0px 0px 50px green;
+  #ma-photo{
+    margin-left:44%;
+    margin-bottom:4%;
   }
+
+  #button-submit{
+    background-color:#7D9007;
+    color:#441253;
+    &:hover{
+        box-shadow: 0px 0px 50px #62900E;
+    }
+  }
+ 
   
   
   
@@ -291,16 +295,11 @@
   
   #contact h1{
   
-    font-family: "Lobster";
+    font-family: "Roboto Condensed";
     color:white;
   font-size:4em;
   }
   
-  #main-container h1{
-    color:rgba(150,0,0,1);
-    font-family: Lobster;
-  font-size:4em;
-  }
   
   #portfolio h1{
     color:white;
@@ -355,6 +354,7 @@
   }
   
   .projects h2{
+    text-shadow:0px 0px 10px black;
     color:white;
   }
   
@@ -364,22 +364,41 @@
   
   h2{
     color:black;
+    font-size:3em;
+    font-family: 'Roboto Mono', serif;
   }
   
   
   h3{
     font-weight:bold;
-    font-family:"Dosis",sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     background-color:#ed3424;
     padding:1%;
+    font-size:2em;
     color:white;
   }
   
-  .logo-application-met-fey-vet{
-    width:20%;
+  .project-preview-img{
+    width:15%;
   }
   
   #mybio{
+    font-family: 'Roboto Slab', serif;
     text-align: justify;
+    color:black;
   }
 
+.links{
+    font-weight:900;
+    font-size:1.3em;
+    text-decoration: underline;
+}
+
+.bio-links{
+    color:red;
+    font-size:1.1em
+}
+
+.project-links{
+    color:#24ED7A;
+}

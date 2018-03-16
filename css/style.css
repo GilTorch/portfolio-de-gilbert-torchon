@@ -2,28 +2,13 @@
   margin: 0;
   padding: 0; }
 
-#button-scroll-up {
-  display: none;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.6);
-  color: gray;
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  z-index: 1;
-  right: 1%;
-  top: 88%;
-  position: fixed;
-  box-shadow: 0px 0px 10px black; }
-
 #navbar-button-group {
   float: right; }
 
 #myheader {
-  background-color: white; }
-
-#myheader button {
-  color: white; }
+  background-color: white;
+  font-family: "Quicksand";
+  font-size: 1.3em; }
 
 .container {
   margin: 0 !important; }
@@ -58,6 +43,7 @@
 body {
   background: linear-gradient(45deg, #000000, #AAAAAA, #000000);
   /* background:url("http://res.cloudinary.com/dejyp5iex/image/upload/v1521123938/Texture-Wallpapers-HD-004_yh2cym.jpg") fixed no-repeat center; */
+  font-family: Quicksand;
   padding: 0;
   color: #eb0005; }
 
@@ -74,12 +60,8 @@ figure {
 #myname {
   font-weight: bold; }
 
-footer ul li {
+#myfooter ul li {
   display: inline; }
-
-#myfooter button {
-  border-radius: 50%;
-  border-width: 3px; }
 
 header ul li {
   font-family: "Quicksand"; }
@@ -90,6 +72,9 @@ header ul li {
   width: 100%;
   margin: 0;
   text-align: center; }
+  #myfooter button {
+    border-radius: 50%;
+    border-width: 3px; }
 
 #myfooter button {
   width: 100px;
@@ -116,6 +101,9 @@ header ul li {
 
 #portfolio img {
   border-radius: 10px; }
+
+#contact {
+  padding: 10%; }
 
 #portfolio, #contact {
   color: white;
@@ -156,7 +144,7 @@ header ul li {
 
 /*Contact*/
 #contact {
-  background-color: rgba(68, 18, 83, 0.849);
+  background-color: #0E4C90;
   margin: 0;
   padding: 1%;
   padding: 1%;
@@ -175,8 +163,15 @@ header ul li {
 #contact-form ul {
   list-style-type: none; }
 
-#buttonsubmit:hover {
-  box-shadow: 0px 0px 50px green; }
+#ma-photo {
+  margin-left: 44%;
+  margin-bottom: 4%; }
+
+#button-submit {
+  background-color: #7D9007;
+  color: #441253; }
+  #button-submit:hover {
+    box-shadow: 0px 0px 50px #62900E; }
 
 #contact button {
   padding: 1%; }
@@ -200,13 +195,8 @@ header ul li {
 
 /*=======Titre yo=====*/
 #contact h1 {
-  font-family: "Lobster";
+  font-family: "Roboto Condensed";
   color: white;
-  font-size: 4em; }
-
-#main-container h1 {
-  color: #960000;
-  font-family: Lobster;
   font-size: 4em; }
 
 #portfolio h1 {
@@ -245,28 +235,41 @@ header ul li {
   padding: 1%; }
 
 .projects h2 {
+  text-shadow: 0px 0px 10px black;
   color: white; }
 
 .row div {
   margin-top: 4%; }
 
 h2 {
-  color: black; }
+  color: black;
+  font-size: 3em;
+  font-family: 'Roboto Mono', serif; }
 
 h3 {
   font-weight: bold;
-  font-family: "Dosis",sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: #ed3424;
   padding: 1%;
+  font-size: 2em;
   color: white; }
 
-.logo-application-met-fey-vet {
-  width: 20%; }
+.project-preview-img {
+  width: 15%; }
 
 #mybio {
-  text-align: justify; }
+  font-family: 'Roboto Slab', serif;
+  text-align: justify;
+  color: black; }
 
-.jumbotron link-code-pen {
-  padding: 0;
-  background-color: #000000;
-  color: white; }
+.links {
+  font-weight: 900;
+  font-size: 1.3em;
+  text-decoration: underline; }
+
+.bio-links {
+  color: red;
+  font-size: 1.1em; }
+
+.project-links {
+  color: #24ED7A; }

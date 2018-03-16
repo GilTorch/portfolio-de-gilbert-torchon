@@ -88,15 +88,14 @@ function createAllProgressBar(){
   creerAnimerProgressBar("#barreHTML",0,98);
   creerAnimerProgressBar("#barreCSS",0,85);
   creerAnimerProgressBar("#barreJavascript",0,65);
-  creerAnimerProgressBar("#barreJavascript",0,65);
-  creerAnimerProgressBar("#barreBootstrap",0,65);
   creerAnimerProgressBar("#barreJQuery",0,65);
-  creerAnimerProgressBar("#barreC",0,65);
-  creerAnimerProgressBar("#barreActionscript",0,80);
-  creerAnimerProgressBar("#barreMySQL",0,75);
-  creerAnimerProgressBar("#barreJavascript",0,75);
-  creerAnimerProgressBar("#barrePHP",0,80);
-  creerAnimerProgressBar("#barreJQueryUI",0,80);
+  creerAnimerProgressBar("#barreNodeJS",0,65);
+  creerAnimerProgressBar("#barreBootstrap",0,65);
+  creerAnimerProgressBar("#barrePHP",0,50);
+  creerAnimerProgressBar("#barreSass",0,80);
+  creerAnimerProgressBar("#barreReactJS",0,70);
+  creerAnimerProgressBar("#barreReactVR",0,10);
+  creerAnimerProgressBar("#barreGitGithub",0,80);
 }
     //
     // $("#barreJavascript").progressbar({
